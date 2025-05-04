@@ -27,7 +27,7 @@ builder.Services.AddSingleton<TokenService>();
 // 1) CORS policy to let your SPA send Authorization header
 builder.Services.AddCors(o =>
     o.AddPolicy("Dev", p => p
-        .SetIsOriginAllowed(origin => origin.StartsWith("http://localhost"))
+        .SetIsOriginAllowed(_ => true)
         .AllowAnyHeader()    // ← must allow Authorization
         .AllowAnyMethod()
         .AllowCredentials()));

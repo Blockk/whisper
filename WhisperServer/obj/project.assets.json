@@ -4966,11 +4966,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\block\\Desktop\\whisper\\whisper\\WhisperServer\\WhisperServer.csproj",
+      "projectUniqueName": "C:\\Users\\block\\Desktop\\project\\whisper\\WhisperServer\\WhisperServer.csproj",
       "projectName": "WhisperServer",
-      "projectPath": "C:\\Users\\block\\Desktop\\whisper\\whisper\\WhisperServer\\WhisperServer.csproj",
+      "projectPath": "C:\\Users\\block\\Desktop\\project\\whisper\\WhisperServer\\WhisperServer.csproj",
       "packagesPath": "C:\\Users\\block\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\block\\Desktop\\whisper\\whisper\\WhisperServer\\obj\\",
+      "outputPath": "C:\\Users\\block\\Desktop\\project\\whisper\\WhisperServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

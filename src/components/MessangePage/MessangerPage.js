@@ -8,7 +8,7 @@ import TopBar        from "./MessagePageItems/TopBar";
 import { get, clearToken } from "../../api";
 import "./MessangerPage.css";
 
-const API = process.env.REACT_APP_API || "http://localhost:5211";
+const API = process.env.REACT_APP_API || "http://137.184.12.91:5211";
 
 export default function MessangerPage() {
   /* ── state ───────────────────────────────────────────────────────────── */

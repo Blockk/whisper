@@ -6,7 +6,7 @@
      • Gracefully handles 401 by logging the user out
 -------------------------------------------------------------------*/
 
-const API_ROOT = process.env.REACT_APP_API || "http://localhost:5211";
+const API_ROOT = process.env.REACT_APP_API || "http://137.184.12.91:5211";
 const TOKEN_KEY = "token";
 
 let authToken = localStorage.getItem(TOKEN_KEY) || null;

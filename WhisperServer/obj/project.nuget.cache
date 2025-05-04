@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b6EdVpXxdUY=",
+  "dgSpecHash": "HrqTrU+UZGA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\block\\Desktop\\whisper\\whisper\\WhisperServer\\WhisperServer.csproj",
+  "projectFilePath": "C:\\Users\\block\\Desktop\\project\\whisper\\WhisperServer\\WhisperServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\block\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\block\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
