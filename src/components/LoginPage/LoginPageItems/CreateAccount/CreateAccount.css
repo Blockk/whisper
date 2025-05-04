@@ -1,0 +1,53 @@
+/* src/components/LoginPage/LoginPageItems/CreateAccount/CreateAccount.css */
+.create-account-container {
+    background-color: #1f1f1f;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .create-account-container h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .create-account-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-account-container label {
+    text-align: left;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .create-account-container input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: #2b2b2b;
+    color: #ffffff;
+  }
+  
+  .create-account-btn {
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-link {
+    margin-top: 1rem;
+  }
+  
+  .login-link span {
+    color: #3399ff;
+    cursor: pointer;
+  }
+  

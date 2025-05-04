@@ -1,0 +1,70 @@
+/* MessagePageItems/InputBox.css */
+
+.input-box {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #242424;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    background-color: #2b2b2b;
+    border-radius: 8px;  /* Reduced curve */
+    padding: 0.5rem 1rem;
+  }
+  
+  .message-input {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5; /* Approximately 24px if font-size is 16px */
+    padding: 0.5rem;
+    outline: none;
+    resize: none;         /* Disable manual resizing */
+    overflow-y: auto;     /* Enable scrolling after reaching max-height */
+    max-height: 144px;     /* Clamp at 6 lines */
+    
+    /* Firefox scrollbar styling */
+    scrollbar-color: #555 #2b2b2b; /* thumb and track colors */
+    scrollbar-width: thin;
+  }
+  
+  /* WebKit scrollbar styling */
+  .message-input::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .message-input::-webkit-scrollbar-track {
+    background: #2b2b2b;
+  }
+  
+  .message-input::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
+  .message-input::-webkit-scrollbar-thumb:hover {
+    background-color: #444;
+  }
+  
+  .input-wrapper button {
+    background-color: #494949;
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* Reduced curve */
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+  
+  .input-wrapper button:hover {
+    background-color: #4e4e4e;
+  }
+  

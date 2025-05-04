@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Qmca1GbT/h3hm4zsZupjxMYrRFyB3e/McuM7xEsRB/s=",
+  "Source": "WhisperServer",
+  "BasePath": "_content/WhisperServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

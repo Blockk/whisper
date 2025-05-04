@@ -1,0 +1,9 @@
+/* src/components/LoginPage/LoginPage.css */
+.login-page {
+    background-color: #121212; /* Dark background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

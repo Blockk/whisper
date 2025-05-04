@@ -1,0 +1,6 @@
+@WhisperServer_HostAddress = http://localhost:5211
+
+GET {{WhisperServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

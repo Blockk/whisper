@@ -1,0 +1,137 @@
+/* The entire page container */
+.create-pin-page {
+  position: relative;
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+}
+
+/* Each half takes 50% of the width, centers its content */
+.half-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Left half glow: uniform green inset glow on all edges */
+.left-half {
+  box-shadow: inset 0 0 60px 2px rgba(0, 119, 0, 0.7);
+}
+
+/* Right half glow: uniform red inset glow on all edges */
+.right-half {
+  box-shadow: inset 0 0 60px 2px rgba(161, 0, 0, 0.7);
+}
+
+/* The PIN panel containing the PIN display and keypad */
+.pin-panel {
+  text-align: center;
+  z-index: 2;
+}
+
+/* Error message style */
+.error-msg {
+  font-size: 1rem;
+  color: #ff5555;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+/* PIN display: 6 circles in a row */
+.pin-display {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.pin-dot {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Keypad styling */
+.keypad {
+  text-align: center;
+}
+
+.digits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.zero-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.digit-btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.digit-btn:active {
+  background-color: #555;
+}
+
+/* Vertical black line in the center */
+.vertical-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  background-color: rgb(5, 5, 5);
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+/* Shake animation for error feedback */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 0.5s;
+}
+
+/* Large check styling (shown when confirmed) */
+.large-check {
+  font-size: 8rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+/* Description text style */
+.description-text {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-top: 4rem;
+  padding: 0 1rem;
+  line-height: 1.4;
+}
